@@ -1,4 +1,4 @@
-inventory-management-system/
+inventorymanager/
 ├── public/
 │   ├── index.html
 │   └── ... (other static files)
@@ -10,16 +10,17 @@ inventory-management-system/
 │   │   ├── Products.js          # Products list component
 │   │   ├── AddProduct.js        # Add product component
 │   │   ├── Navbar.js            # Navigation bar component
-│   │   └── Footer.js            # Footer component (optional)
+│   │   ├── Footer.js            # Footer component
 │   │
 │   ├── data/                    # JSON data files
 │   │   ├── users.json           # User data
 │   │   └── products.json        # Product data
 │   │
+│   ├── styles/                  # Custom styles
+│   │   └── App.css              # Custom CSS
+│   │
 │   ├── App.js                   # Main application component
 │   ├── index.js                 # Entry point
-│   └── styles/                  # Custom styles (optional)
-│       └── App.css
 │
 ├── .gitignore                   # Git ignore file
 ├── package.json                 # Project dependencies
